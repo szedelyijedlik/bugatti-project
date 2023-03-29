@@ -3,6 +3,70 @@
     src: url("files/BUGATTIDisplay-Regular.woff2");
 }
 
-svg {
-    width: 100px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "bugattiFont", Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR */
+
+.floatDiv {
+    width: 30%;
+    height: 30vh;
+    background-color: rgba(40, 40, 40, 15%);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    border-radius: 0 0 10px 10px;
+}
+
+nav svg {
+    margin-top: 70px;
+    width: 120px;
+    text-shadow: 100px 100px;
+    opacity: 0.85;
+    transition: opacity .5s;
+    left: 47%;
+    position: fixed;
+    transition: all 1s;
+}
+
+nav svg:hover {
+    opacity: 1;
+    transition: opacity .5s;
+}
+
+.navbar-nav {
+    color: whitesmoke;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    position: fixed;
+    transition: all 1s;
+    top: 22.5vh;
+}
+
+.navbar-nav a.nav-link:hover {
+    background-color: rgba(40, 40, 40, 3%);
+    color: white;
+    border-radius: 5px;
+}
+
+/* HOMEPAGE */
+
+.welcomeVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.scroll {
+    min-height: 200vh;
 }
