@@ -63,6 +63,10 @@ nav svg:hover {
     height: 20px;
     position: relative;
     transition: 1s ease-in-out;
+    display: none;
+    position: fixed;
+    top: 45px;
+    right: 50px;
 }
 
 .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
@@ -81,7 +85,7 @@ nav svg:hover {
     position: absolute;
     height: 2px;
     width: 100%;
-    background-color: #282828;
+    background-color: white;
     border-radius: 1px;
     opacity: 1;
     left: 0;
@@ -109,7 +113,7 @@ nav svg:hover {
 }
 
 .navbar-toggler.collapsed .top-bar {
-    margin-top: -17px;
+    margin-top: -10px;
     transform: rotate(0deg);
 }
 
@@ -121,7 +125,7 @@ nav svg:hover {
 
 .navbar-toggler.collapsed .bottom-bar {
     transform: rotate(0deg);
-    margin-top: 17px;
+    margin-top: 10px;
 }
 
 
