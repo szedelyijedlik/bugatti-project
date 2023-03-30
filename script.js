@@ -7,24 +7,15 @@ window.onload = function () {
   };
 
 function welcomeAnimation(){
-    let navLogoImg = document.querySelector(".navbar-brand svg");
+    let navLogoImg = document.querySelector(".navbar-brand");
     let navBar = document.querySelector(".navbar-collapse");
     let floatDiv = document.querySelector(".floatDiv");
     let navbarToggler = document.querySelector(".navbar-toggler");
 
-    navLogoImg.style.transform = "none";
-    navLogoImg.style.left = "70px";
-    navLogoImg.style.top = "-40px";
-    navLogoImg.style.width = "90px";
-    navBar.style.transform = "none";
-    navBar.style.right = "-200px"
-    navBar.style.top = "40px"
-    floatDiv.style.width = "100%";
-    floatDiv.style.height = "13vh";
-    floatDiv.style.borderRadius = "0";
-    if(screen.width < "768px"){
-        navbarToggler.style.display = "fixed";
-    }
+    navLogoImg.classList.add("manCollapse");
+    navBar.classList.add("manCollapse");
+    floatDiv.classList.add("manCollapse");
+    navbarToggler.classList.add("manCollapse");
 }
 
 setTimeout(scrollToContinue, 10);

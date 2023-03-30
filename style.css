@@ -20,8 +20,7 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
-    border-radius: 0 0 10px 10px;
-    transition: width 1s;
+    transition: width .5s;
 }
 
 nav svg {
@@ -46,7 +45,7 @@ nav svg:hover {
     font-size: 1.2rem;
     border-radius: 5px;
     position: fixed;
-    transition: all 1s;
+    transition: all .5s;
     top: 22.5vh;
     left: 50%;
     transform: translateX(-50%);
@@ -59,76 +58,50 @@ nav svg:hover {
 }
 
 .navbar-toggler {
-    width: 20px;
-    height: 20px;
-    position: relative;
-    transition: 1s ease-in-out;
     display: none;
     position: fixed;
-    top: 45px;
+    top: 35px;
     right: 50px;
 }
 
-.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-    border: 0;
+.navbar-brand.manCollapse svg {
+    transform: none;
+    left: 70px;
+    top: -40px;
+    width: 80px;
 }
 
-.navbar-toggler span {
-    margin: 0;
-    padding: 0;
+.navbar-collapse.manCollapse  {
+    transform: none;
+    top: 40px;
+    right: 0px;
 }
 
-.toggler-icon {
-    display: block;
-    position: absolute;
-    height: 2px;
+.floatDiv.manCollapse {
     width: 100%;
-    background-color: white;
-    border-radius: 1px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
+    height: 13vh;
 }
 
-.middle-bar {
-    margin-top: 0;
+@media(max-width: 1000px){
+    .navbar-collapse.manCollapse .navbar-nav {
+        display: none;
+    }
+
+    .navbar-collapse.manCollapse {
+        transform: none;
+        top: 14vh;
+        transition: none;
+        right: 50%;
+    }
+
+    .navbar-collapse.manCollapse.show .navbar-nav {
+        display: block;
+    }
+
+    .navbar-toggler.manCollapse {
+        display: block;
+    }
 }
-
-.navbar-toggler .top-bar {
-    margin-top: 0;
-    transform: rotate(135deg);
-}
-
-.navbar-toggler .middle-bar {
-    opacity: 0;
-    filter: alpha(opacity=0);
-}
-
-.navbar-toggler .bottom-bar {
-    margin-top: 0;
-    transform: rotate(-135deg);
-}
-
-.navbar-toggler.collapsed .top-bar {
-    margin-top: -10px;
-    transform: rotate(0deg);
-}
-
-.navbar-toggler.collapsed .middle-bar {
-    transform: rotate(0deg);
-    margin-top: 0px;
-    opacity: 1;
-}
-
-.navbar-toggler.collapsed .bottom-bar {
-    transform: rotate(0deg);
-    margin-top: 10px;
-}
-
-
 
 /* HOMEPAGE */
 
@@ -166,4 +139,12 @@ a.scrollToContinue svg {
 
 .scroll {
     min-height: 200vh;
+}
+
+.welcomeImg {
+    margin-top: 100vh;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
 }
