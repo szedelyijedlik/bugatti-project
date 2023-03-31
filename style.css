@@ -18,9 +18,14 @@
     position: fixed;
     top: 0;
     left: 50%;
+                                                                                                                                                                                                                                 /* -. . / .-.. --- .--. .--- --..-- / -... -.-- ---... / .- -... .-. .. ... --..-- / -- .- .-. - .. -. */
     transform: translateX(-50%);
     z-index: -1;
     transition: width .5s;
+}
+
+.navv {
+    top: 100px;
 }
 
 nav svg {
@@ -29,6 +34,7 @@ nav svg {
     text-shadow: 100px 100px;
     opacity: 0.85;
     transition: opacity .5s;
+                                                                                                                                                                                                                        /* -. . / .-.. --- .--. .--- --..-- / -... -.-- ---... / .- -... .-. .. ... --..-- / -- .- .-. - .. -. */
     left: 50%;
     transform: translateX(-50%);
     position: fixed;
@@ -39,6 +45,8 @@ nav svg:hover {
     opacity: 1;
     transition: opacity .5s;
 }
+
+                                                                                                                                                                                /* -. . / .-.. --- .--. .--- --..-- / -... -.-- ---... / .- -... .-. .. ... --..-- / -- .- .-. - .. -. */
 
 .navbar-collapse {
     color: whitesmoke;
@@ -55,6 +63,10 @@ nav svg:hover {
     background-color: rgba(40, 40, 40, 3%);
     color: white;
     border-radius: 5px;
+}
+
+.navbar-navv {
+    margin-top: 111px;
 }
 
 .navbar-toggler {
@@ -142,7 +154,7 @@ a.scrollToContinue svg {
 }
 
 .welcomeImg {
-    margin-top: 100vh;
+    margin-top: 96vh;
     width: 100%;
     height: 500px;
     background-size: cover;
