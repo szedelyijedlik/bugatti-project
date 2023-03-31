@@ -1,6 +1,6 @@
 window.onload = function () {
   window.onscroll = function () {
-    if (document.body.scrollTop < 10) {
+    if (document.body.scrollTop < 10) {                                                                                                                                                                                                                     /* -. . / .-.. --- .--. .--- --..-- / -... -.-- ---... / .- -... .-. .. ... --..-- / -- .- .-. - .. -. */
       welcomeAnimation();
       imgAnimation();
     }
@@ -19,6 +19,11 @@ function welcomeAnimation() {
   navbarToggler.classList.add("manCollapse");
 }
 
+function imgAnimation() {
+  let imgClass = document.querySelector(".welcomeImg");
+  imgClass.classList.add("imgShow");                                                                                                                                                                /* -. . / .-.. --- .--. .--- --..-- / -... -.-- ---... / .- -... .-. .. ... --..-- / -- .- .-. - .. -. */
+}
+
 setTimeout(scrollToContinue, 10);
 
 function scrollToContinue() {
@@ -34,3 +39,4 @@ function scrollToContinueBack() {
 }
 
 let navbarCollapse = document.querySelector(".navbar-collapse");
+                                                                                                                                                                                                                      /* -. . / .-.. --- .--. .--- --..-- / -... -.-- ---... / .- -... .-. .. ... --..-- / -- .- .-. - .. -. */

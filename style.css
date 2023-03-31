@@ -93,7 +93,7 @@ nav svg:hover {
     width: 100%;
     height: 13vh;
 }
-
+                                                                                                                                                                                                                                                                                                            /* -. . / .-.. --- .--. .--- --..-- / -... -.-- ---... / .- -... .-. .. ... --..-- / -- .- .-. - .. -. */
 @media(max-width: 1000px){
     .navbar-collapse.manCollapse .navbar-nav {
         display: none;
@@ -154,9 +154,18 @@ a.scrollToContinue svg {
 }
 
 .welcomeImg {
-    margin-top: 96vh;
+    position: absolute;
+    right: 300vh;
+    top: 102vh;
     width: 100%;
     height: 500px;
     background-size: cover;
     background-position: center;
+    object-fit: cover;
+    transition: right 1s;
+}
+
+.welcomeImg.imgShow {
+    right: 0;
+    transition: right 1s;
 }
