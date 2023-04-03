@@ -1,3 +1,12 @@
 .model-cards{
+    border: 1px solid red;
+}
+
+.cards-h1{
+    margin: 0 5vh 0 5vh;
+}
+
+.model-img{
+    width: 100%;
     
 }
