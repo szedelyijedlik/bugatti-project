@@ -1,3 +1,15 @@
 .tartalom {
     
 }
+
+.pList {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.contentPics {
+    border: 1px solid grey;
+}
