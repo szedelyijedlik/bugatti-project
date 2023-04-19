@@ -165,7 +165,7 @@ a.scrollToContinue svg {
 }
 
 .welcome-cards:hover {
-    transform: scale(103%);
+    transform: scale(102%);
     background-color: whitesmoke;
     box-shadow: 2px 2px rgba(40, 40, 40, 15%);
 }
@@ -175,7 +175,7 @@ a.scrollToContinue svg {
 }
 
 .welcome-cards img:hover {
-    transform: scale(103%);
+    transform: scale(102%);
     padding-top: 10px;
 }
 
@@ -189,6 +189,15 @@ a {
     object-fit: cover;
 }
 
-.carousel-caption h5, .carousel-caption p {
-    color: whitesmoke;
+.historyModels {
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
