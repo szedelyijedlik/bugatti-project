@@ -7,13 +7,22 @@
 }
 
 .title {
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
-    text-decoration: underline;
     margin-bottom: 40px;
 }
 
 .contentBoxes {
     text-align: center;
     font-size: 25px;
+}
+
+.merch {
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+.merch img {
+    width: 300px;
 }
