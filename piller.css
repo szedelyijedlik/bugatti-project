@@ -27,9 +27,16 @@
     width: 300px;
 }
 
-.subtitle {
+.subtitle-right {
     text-align: left;
     margin-right: 150px;
+    font-size: 40px;
+    margin-top: 175px;
+}
+
+.subtitle-left {
+    text-align: left;
+    margin-left: 150px;
     font-size: 40px;
     margin-top: 175px;
 }
@@ -45,4 +52,8 @@ li {
 
 .lifestylePics {
     width: 100%;
+}
+
+.leftLi {
+    margin-left: 160px;
 }
