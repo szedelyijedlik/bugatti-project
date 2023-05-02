@@ -21,3 +21,39 @@
     margin-left: -12px;
     width: 1903.49px;
 }
+
+.container-bolide{
+   text-align: center;
+   
+}
+
+.hatter-bolide{
+    background-color: rgb(17, 28, 51);
+    color: white;
+    margin-top: 105vh;
+    padding: 10vh;
+}
+
+.container-img{
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.gallery{
+    margin-top: 10vh;
+}
+
+.gallery a{
+    color: white !important;
+    text-decoration: none;
+    border: 3px solid white;
+    margin-top: 200px;
+    padding: 3vh;
+}
+
+.carousel{
+    margin-top: 49vh;
+    padding: 1.5vh;
+    padding-bottom: 2.5vh;
+}
