@@ -1,7 +1,3 @@
-.tartalom {
-    
-}
-
 .pList {
     font-size: 20px;
 }
@@ -56,4 +52,10 @@ li {
 
 .leftLi {
     margin-left: 160px;
+}
+
+.celebPics {
+    width:  100%;
+    height: 500px;
+    object-fit: cover;
 }
